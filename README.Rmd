@@ -1,0 +1,13 @@
+# Example Project
+
+## Reproducible Research with R and RStudio
+
+### Christopher Gandrud
+
+### CRC Press/Chapman & Hall division of Taylor & Francis
+
+### 17 February 2013
+
+---
+
+To reproduce this project download this repository and place it in your root directory.

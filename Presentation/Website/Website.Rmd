@@ -1,0 +1,15 @@
+# Fertilizer Consumption
+### Christopher Gandrud
+### 17 February 2013
+
+-----------
+
+## Fertilizer Consumption (kilograms per hectare of arable land) in 2003
+### Data is from the [World Bank](http://data.worldbank.org/indicator/AG.CON.FERT.ZS)
+
+```{r CreategvisGeoMap, echo=FALSE, message=FALSE, results='asis'}
+source("/ExampleProject/Analysis/GoogleVisMap.R")
+```
+
+-----------
+
