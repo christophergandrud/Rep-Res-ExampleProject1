@@ -20,7 +20,7 @@ The following session was used:
 
 ```
 ## R version 2.15.2 (2012-10-26)
-## Platform: x86_64-apple-darwin9.8.0/x86_64 (64-bit)
+## Platform: i386-apple-darwin9.8.0/i386 (32-bit)
 ## 
 ## locale:
 ## [1] en_GB.UTF-8/en_GB.UTF-8/en_GB.UTF-8/C/en_GB.UTF-8/en_GB.UTF-8
