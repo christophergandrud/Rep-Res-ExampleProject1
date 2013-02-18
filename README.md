@@ -38,11 +38,11 @@ setwd("/Rep-Res-ExampleProject1/Presentation/Article/")
 knit2pdf("Article.Rnw")
 
 # Slideshow.pdf
-setwd("/Rep-Res-ExampleProject1/Presentation/Slideshow/")
+setwd("/Rep-Res-ExampleProject1/Presentation/Other/Slideshow/")
 knit2pdf("Slideshow.Rnw")
 
 # Website.html
-setwd("/Rep-Res-ExampleProject1/Presentation/Website/")
+setwd("/Rep-Res-ExampleProject1/Presentation/Other/Website/")
 knit2html("Website.Rmd")
 ```
 
