@@ -8,7 +8,7 @@
 ### Data is from the [World Bank](http://data.worldbank.org/indicator/AG.CON.FERT.ZS)
 
 <!-- GeoMap generated in R 2.15.2 by googleVis 0.3.3 package -->
-<!-- Sun Feb 17 17:05:27 2013 -->
+<!-- Mon Feb 18 09:36:03 2013 -->
 
 
 <!-- jsHeader -->
@@ -17,7 +17,7 @@
 <script type="text/javascript">
  
 // jsData 
-function gvisDataGeoMapID81865dfcb38 ()
+function gvisDataGeoMapID1318b64327c ()
 {
   var data = new google.visualization.DataTable();
   var datajson =
@@ -610,8 +610,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartGeoMapID81865dfcb38() {
-  var data = gvisDataGeoMapID81865dfcb38();
+function drawChartGeoMapID1318b64327c() {
+  var data = gvisDataGeoMapID1318b64327c();
   var options = {};
 options["dataMode"] = "regions";
 options["width"] = "780px";
@@ -619,7 +619,7 @@ options["height"] = "500px";
 options["colors"] = [0xECE7F2, 0xA6BDDB, 0x2B8CBE];
 
      var chart = new google.visualization.GeoMap(
-       document.getElementById('GeoMapID81865dfcb38')
+       document.getElementById('GeoMapID1318b64327c')
      );
      chart.draw(data,options);
     
@@ -628,14 +628,14 @@ options["colors"] = [0xECE7F2, 0xA6BDDB, 0x2B8CBE];
   
  
 // jsDisplayChart 
-function displayChartGeoMapID81865dfcb38()
+function displayChartGeoMapID1318b64327c()
 {
   google.load("visualization", "1", { packages:["geomap"] }); 
-  google.setOnLoadCallback(drawChartGeoMapID81865dfcb38);
+  google.setOnLoadCallback(drawChartGeoMapID1318b64327c);
 }
  
 // jsChart 
-displayChartGeoMapID81865dfcb38()
+displayChartGeoMapID1318b64327c()
  
 <!-- jsFooter -->  
 //-->
@@ -643,7 +643,7 @@ displayChartGeoMapID81865dfcb38()
  
 <!-- divChart -->
   
-<div id="GeoMapID81865dfcb38"
+<div id="GeoMapID1318b64327c"
   style="width: 780pxpx; height: 500pxpx;">
 </div>
 
