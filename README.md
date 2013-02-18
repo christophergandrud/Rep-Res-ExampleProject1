@@ -35,7 +35,7 @@ library(knitr)
 
 # Article.pdf
 setwd("/Rep-Res-ExampleProject1/Presentation/Article/")
-knit2pdf(input = "Article.Rnw")
+knit2pdf("Article.Rnw")
 
 # Slideshow.pdf
 setwd("/Rep-Res-ExampleProject1/Presentation/Slideshow/")
@@ -49,7 +49,7 @@ knit2html("Website.Rmd")
 
 # Session Info
 
-The documents were created with the following R session:
+The presentation documents were created with the following R session:
 
 
 ```

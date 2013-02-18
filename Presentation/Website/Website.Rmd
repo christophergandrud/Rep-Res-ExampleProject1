@@ -13,3 +13,9 @@ source("/Rep-Res-ExampleProject1/Analysis/GoogleVisMap.R")
 
 -----------
 
+## R Session Info
+
+```{r echo=FALSE}
+sessionInfo()
+```
+

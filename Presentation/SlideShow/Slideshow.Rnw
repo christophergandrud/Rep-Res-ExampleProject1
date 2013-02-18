@@ -23,4 +23,13 @@ source("/Rep-Res-ExampleProject1/Analysis/ScatterUDS_Fert.R")
 \end{figure}
 \end{frame}
 
+\begin{frame}[fragile]
+	\frametitle{R Session Info}
+{\scriptsize 
+<<SessionInfo, echo=FALSE, results='asis'>>=
+toLatex(sessionInfo())
+@
+}
+\end{frame}
+
 \end{document}
