@@ -18,7 +18,7 @@
 \begin{figure}
 <<UDSFertPlot, echo=FALSE, warning=FALSE, out.width='7cm', out.height='7cm'>>=
 # Run source code to create scatter plot
-source("/ExampleProject/Analysis/ScatterUDS_Fert.R")
+source("/Rep-Res-ExampleProject1/Analysis/ScatterUDS_Fert.R")
 @ 
 \end{figure}
 \end{frame}

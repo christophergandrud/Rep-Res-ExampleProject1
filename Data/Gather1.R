@@ -1,19 +1,24 @@
 ################
-# Download and clean CSV file from Dropbox
+# Download Agricultural methane emissions (% of total) from WDI
 # Christopher Gandrud
-# Updated 2 January 2013
-# Data from "The diffusion of financial supervisory governance ideas" (Gandrud 2012)
+# Updated 7 January 2013
+# For more information see: http://data.worldbank.org/indicator
 ################
 
-# Load library
-library(countrycode)
+# Load WDI
+library(WDI)
+library(plyr)
 
-# Download financial regulatory variables
-FinRegulatorData <- read.table("http://bit.ly/PhjaPM",
-                    		sep = ",", header = TRUE)
+# Note: Fertilizer consumption/hectare of arable land indicator number:
+# AG.CON.FERT.ZS
 
-# Create standardized country ID numbers based iso 2 character codes
-FinRegulatorData$iso2c <- countrycode(FinRegulatorData$country, 
-									origin = "country.name",
-									destination = "iso2c")
+# Note: for simplicity that this example does not include 
+# all of the clean up  procedures covered in Chapter 7 of "Reproducible Research"
 
+# Gather agricultural methane emissions data from WDI
+FertConsumpData <- WDI(indicator = "AG.CON.FERT.ZS")
+
+# Rename variable = year, value = FertilizerConsumption
+FertConsumpData <- plyr::rename(x = FertConsumpData,
+                     replace = c(AG.CON.FERT.ZS
+                     			 = "FertilizerConsumption"))

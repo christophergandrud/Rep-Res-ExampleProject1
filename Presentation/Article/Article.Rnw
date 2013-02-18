@@ -47,7 +47,7 @@ I gathered data from \cite{Pemstein2010} on countries' democracy level. They cal
   \label{DemPlot}
 <<UDSFertPlot, echo=FALSE, warning=FALSE, out.width='7cm', out.height='7cm'>>=
 # Run source code to create scatter plot
-source("/ExampleProject/Analysis/ScatterUDS_Fert.R")
+source("/Rep-Res-ExampleProject1/Analysis/ScatterUDS_Fert.R")
 @ 
 \end{figure}
 
@@ -55,6 +55,10 @@ source("/ExampleProject/Analysis/ScatterUDS_Fert.R")
 \section*{Appendix: Reproducing the Document}
 
 This document was created using the R version 2.15.2 and the R package \emph{knitr} \citep{R-knitr}. It also relied on the R packages \emph{devtools} \citep{R-devtools}, \emph{ggplot2} \citep{R-ggplot2}, and \emph{repmis} \citep{R-repmis}. The document can be completely reproduced from source files available on GitHub at: \url{https://github.com/christophergandrud/Rep-Res-ExampleProject}.
+
+%%%%%%%%% Create README.md file recording session info
+<<README, child=c('README.Rmd'), eval=TRUE>>=
+@
 
 %%%%%%%%% Bibliography %%%%%%%%%%%%%%%%%%%% 
 \bibliographystyle{apa}

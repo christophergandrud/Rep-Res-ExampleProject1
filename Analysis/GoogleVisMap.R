@@ -9,7 +9,7 @@
 library(googleVis)
 
 # Load data
-MainData <- read.csv("/ExampleProject/Data/MainData.csv")
+MainData <- read.csv("/Rep-Res-ExampleProject1/Data/MainData.csv")
 
 # Subset MainData so that it only includes 2003
 SubData <- subset(MainData, year == 2003)

@@ -8,7 +8,7 @@
 library(ggplot2)
 
 # Load data
-MainData <- read.csv("/ExampleProject/Data/MainData.csv")
+MainData <- read.csv("/Rep-Res-ExampleProject1/Data/MainData.csv")
 
 # Graph FertilizerConsumption and UDS
 # Remove values of FertilizerConsumption less than 0.1

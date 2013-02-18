@@ -8,7 +8,7 @@
 ### Data is from the [World Bank](http://data.worldbank.org/indicator/AG.CON.FERT.ZS)
 
 ```{r CreategvisGeoMap, echo=FALSE, message=FALSE, results='asis'}
-source("/ExampleProject/Analysis/GoogleVisMap.R")
+source("/Rep-Res-ExampleProject1/Analysis/GoogleVisMap.R")
 ```
 
 -----------

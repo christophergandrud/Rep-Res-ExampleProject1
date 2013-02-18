@@ -10,4 +10,4 @@
 
 ---
 
-To reproduce this project download this repository and place it in your root directory.
+To reproduce the entire Example Project download this repository and place it in your *root* directory. Then follow the instructions in the Book.

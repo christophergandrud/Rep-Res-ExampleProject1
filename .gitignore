@@ -22,6 +22,4 @@ figure/*
 *.vrb
 
 # Specific files
-ExampleKnitrMarkdown.md
-ExampleKnitrMarkdown.html
-.Rproj.user
+Packages.bib
