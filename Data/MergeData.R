@@ -1,7 +1,7 @@
 ######################
 # Merge, final clean and save
 # Christopher Gandrud
-# 17 February 2013
+# 18 February 2013
 ######################
 
 ## This file merges two data frames created by:
@@ -21,7 +21,7 @@ MergedData <- merge(FertConsumpData, UDSData,
                     all = FALSE)
 
 # Created a data frame of duplicated country-years
-DataNotDuplicates <- MergedData[!duplicated(
+FinalCleanedData <- MergedData[!duplicated(
                                 MergedData[, 1:2]), ]
 
 # Save data frame as a CSV file
