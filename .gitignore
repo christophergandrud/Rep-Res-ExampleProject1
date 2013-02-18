@@ -3,6 +3,7 @@
 
 # General files
 *.RData
+*.Rhistory
 *.Rout
 .DS_Store
 *.aux
@@ -24,3 +25,4 @@ figure/*
 
 # Specific files
 Packages.bib
+Website.md
