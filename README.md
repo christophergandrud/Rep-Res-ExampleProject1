@@ -14,7 +14,7 @@ To reproduce the entire Example Project download this repository and place it in
 
 ### Data Gathering
 
-Use the following code to reproduce the data gathering using R:
+Use the following R code to reproduce the data gathering:
 
 
 ```r
