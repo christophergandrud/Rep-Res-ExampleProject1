@@ -52,7 +52,7 @@ source("/Rep-Res-ExampleProject1/Analysis/ScatterUDS_Fert.R")
 %%%%%%%%%%% Reproducing the Document %%%%%
 \section*{Appendix: Reproducing the Document}
 
-This document was created using the R version 2.15.2 and the R package \emph{knitr} \citep{R-knitr}. It also relied on the R packages \emph{ggplot2} \citep{R-ggplot2}, and \emph{repmis} \citep{R-repmis}. The document can be completely reproduced from source files available on GitHub at: \url{https://github.com/christophergandrud/Rep-Res-ExampleProject}. 
+This document was created using the R version 2.15.2 and the R package \emph{knitr} \citep{R-knitr}. It also relied on the R packages \emph{ggplot2} \citep{R-ggplot2} and \emph{repmis} \citep{R-repmis}. The document can be completely reproduced from source files available on GitHub at: \url{https://github.com/christophergandrud/Rep-Res-ExampleProject}. 
 
 The R session info is:
 
