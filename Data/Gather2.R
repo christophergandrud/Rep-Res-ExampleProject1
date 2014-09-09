@@ -1,5 +1,5 @@
 #############
-# Download and clean Pemstein (2010) Unified Democracy Score Data
+# Download and clean Pemstein (2010, updated 2014) Unified Democracy Score Data
 # Christopher Gandrud
 # Updated 9 September 2014
 # Data downloaded from http://www.unified-democracy-scores.org/
