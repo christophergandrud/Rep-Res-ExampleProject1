@@ -1,7 +1,7 @@
 #############
 # Download and clean Pemstein (2010) Unified Democracy Score Data
 # Christopher Gandrud
-# Updated 17 February 2013 
+# Updated 9 September 2014
 # Data downloaded from http://www.unified-democracy-scores.org/
 #############
 
@@ -9,8 +9,7 @@
 library(countrycode)
 library(plyr)
 
-#### # For simplicity, store the shortened URL in an object called url. 
-url <- "http://bit.ly/S0vxk2"
+url <- "http://www.unified-democracy-scores.org/files/20140312/z/uds_summary.csv.gz"
 
 # Create a temporary file called 'temp' to put the zip file into. 
 temp <- tempfile()
