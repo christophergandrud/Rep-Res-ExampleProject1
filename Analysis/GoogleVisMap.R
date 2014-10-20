@@ -4,15 +4,15 @@
 # 7 January 2012
 ##################
 
-#### Load data used in this document #### 
+#### Load data used in this document ####
 # Load package
 library(googleVis)
 
 # Load data
-MainData <- read.csv("/Rep-Res-ExampleProject1/Data/MainData.csv")
+MainData <- read.csv("Analysis/Data/MainData.csv")
 
 # Subset MainData so that it only includes 2003
-SubData <- subset(MainData, year == 2003)
+SubData <- subset(MainData, year == 2010)
 
 # Remove values of FertilizerConsumption less than 0.1
 SubData <- subset(SubData, FertilizerConsumption > 0.1)
@@ -32,4 +32,4 @@ FCMap <- gvisGeoMap(data = SubData,
                       height = "500px"))
 
 # Print FCMap
-print(FCMap, tag = "chart")
+plot(FCMap, tag = "chart")

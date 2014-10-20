@@ -1,0 +1,24 @@
+# Data Gathering Files for Example Project
+
+## Reproducible Research with R and RStudio
+
+Christopher Gandrud
+
+CRC Press/Chapman & Hall division of Taylor & Francis
+
+20 October 2014
+
+---
+
+The files in this folder gather data and clean data for the *Example Project*
+from *Reproducible Research with R and RStudio*.
+
+Use GNU Make to run the files and create the data set (version 3.81). See
+Chapter 6 for more details.
+
+The following session was used:
+
+
+```{r echo=FALSE}
+sessionInfo()
+```

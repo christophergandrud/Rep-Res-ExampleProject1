@@ -25,10 +25,10 @@ FinalCleanedData <- MergedData[!duplicated(
                                 MergedData[, 1:2]), ]
 
 # Save data frame as a CSV file
-# Note that following command saves the file in the current working 
+# Note that following command saves the file in the current working
 # directory. In the example from the book (Figure 4.1) it is saved
-# in the Data directory. 
-write.csv(FinalCleanedData, file = "MainData.csv")
+# in the Data directory.
+write.csv(FinalCleanedData, file = "MainData.csv", row.names = FALSE)
 
 #### Create variable description file ####
 # Vector of variable namess
@@ -68,8 +68,7 @@ cat("# Reproducible Research Example Data Set Variable Descriptions/Sources \n",
 ## Load other packages used in the Gather files
 library(countrycode)
 library(WDI)
-library(RCurl) 
+library(RCurl)
 
 # Knit README file
 knitr::knit("README.Rmd")
-

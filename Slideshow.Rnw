@@ -18,14 +18,14 @@
 \begin{figure}
 <<UDSFertPlot, echo=FALSE, warning=FALSE, out.width='7cm', out.height='7cm'>>=
 # Run source code to create scatter plot
-source("/Rep-Res-ExampleProject1/Analysis/ScatterUDS_Fert.R")
-@ 
+source("Analysis/ScatterUDS_Fert.R")
+@
 \end{figure}
 \end{frame}
 
 \begin{frame}[fragile]
 	\frametitle{R Session Info}
-{\scriptsize 
+{\scriptsize
 <<SessionInfo, echo=FALSE, results='asis'>>=
 toLatex(sessionInfo())
 @

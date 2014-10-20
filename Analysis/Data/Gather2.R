@@ -1,7 +1,7 @@
 #############
 # Download and clean Pemstein (2010, updated 2014) Unified Democracy Score Data
 # Christopher Gandrud
-# Updated 9 September 2014
+# Updated 20 October 2014
 # Data downloaded from http://www.unified-democracy-scores.org/
 #############
 
@@ -11,7 +11,7 @@ library(plyr)
 
 url <- "http://www.unified-democracy-scores.org/files/20140312/z/uds_summary.csv.gz"
 
-# Create a temporary file called 'temp' to put the zip file into. 
+# Create a temporary file called 'temp' to put the zip file into.
 temp <- tempfile()
 
 # Create a temporary file called 'temp' to put the zip file into. temp <- tempfile()
@@ -25,9 +25,9 @@ UDSData <- read.csv(gzfile(temp, "uds_summary.csv"))
 unlink(temp)
 
 # Created standardized country ID numbers based on iso 2 character codes
-UDSData$iso2c <- countrycode(UDSData$country, 
-							 origin = "country.name",
-							 destination = "iso2c")
+UDSData$iso2c <- countrycode(UDSData$country,
+                             origin = "country.name",
+                             destination = "iso2c")
 
 # Keep only country, year, iso2c, and mean (UDS) variables
 UDSData <- UDSData[, c("iso2c", "year", "mean")]

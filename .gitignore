@@ -23,6 +23,9 @@ figure/*
 *.toc
 *.vrb
 
+*.pdf
+*.html
+
 # Specific files
 Packages.bib
 Website.md

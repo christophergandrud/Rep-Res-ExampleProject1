@@ -17,15 +17,15 @@ RSOURCE = $(wildcard $(RDIR)/*.R)
 OUT_FILES = $(RSOURCE:.R=.Rout)
 
 # Default target
-all: $(OUT_FILES) 
+all: $(OUT_FILES)
 
 # Run the RSOURCE files
 $(RDIR)/%.Rout: $(RDIR)/%.R
 	R CMD BATCH $<
 
 # Remove R Out Files
-clean: 
-	rm -fv $(OUT_FILES) 
+clean:
+	rm -fv $(OUT_FILES)
 
 # Remove MergeData.Rout
 cleanMerge:
