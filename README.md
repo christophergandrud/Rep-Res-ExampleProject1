@@ -16,7 +16,7 @@ A number of changes have been made to this example for the Second Edition of
 has been changed to take full advantage of relative file paths.
 
 For the version of this example from the First Edition see
-[the last commit](https://github.com/christophergandrud/Rep-Res-ExampleProject1/commit/8176db9c7b6c7977047f6411bbf804116754874f).
+[the last commit](https://github.com/christophergandrud/Rep-Res-ExampleProject1/tree/8176db9c7b6c7977047f6411bbf804116754874f).
 
 ## Reproduce the Example
 
