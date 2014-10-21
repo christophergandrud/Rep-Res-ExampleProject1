@@ -6,17 +6,27 @@ Christopher Gandrud
 
 CRC Press/Chapman & Hall division of Taylor & Francis
 
-20 October 2014
+21 October 2014
 
 
 ## Updates for the Second Edition
 
-A number of changes have been made to this example for the Second Edition of
-*Reproducible Research with R and RStudio*. Most importantly the file structure
-has been changed to take full advantage of relative file paths.
+A number of changes have been made to this example for the (forthcoming) Second
+Edition of *Reproducible Research with R and RStudio*. Most importantly the file
+structure has been changed to take full advantage of relative file paths.
 
-For the version of this example from the First Edition see
-[the last commit](https://github.com/christophergandrud/Rep-Res-ExampleProject1/commit/8176db9c7b6c7977047f6411bbf804116754874f).
+To do this the project now has the following file tree:
+
+```
+Presentation documents
+|_
+   Analysis
+   |_
+      Data
+```
+
+For the version of this example from the **First Edition** see
+[here](https://github.com/christophergandrud/Rep-Res-ExampleProject1/commit/8176db9c7b6c7977047f6411bbf804116754874f).
 
 ## Reproduce the Example
 
