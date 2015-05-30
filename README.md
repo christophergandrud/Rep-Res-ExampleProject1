@@ -6,9 +6,6 @@ Christopher Gandrud
 
 CRC Press/Chapman & Hall division of Taylor & Francis
 
-21 October 2014
-
-
 ## Updates for the Second Edition
 
 A number of changes have been made to this example for the (forthcoming) **Second
